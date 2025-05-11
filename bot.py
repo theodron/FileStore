@@ -126,6 +126,3 @@ class Bot(Client):
         finally:
             loop.run_until_complete(self.stop())
 
-import pyrogram.utils
-
-pyrogram.utils.MIN_CHANNEL_ID = -1002259290366
